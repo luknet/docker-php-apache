@@ -1,3 +1,5 @@
+FROM ljeczmien/php-apache-autobuild:5.4
+
 ENV ORACLE_PATH /usr/local/lib/oracle
 ENV ORACLE_HOME $ORACLE_PATH/instantclient_12_1
 ENV ORACLE_INSTANTCLIENT_VERSION 12.1.0.2.0
